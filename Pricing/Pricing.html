@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/PricingCSS.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="Buttons">
+                <button id="kayaking-button" onclick="changeKayakingCard('card-camping','card-kayaking')">Kayaking</button>
+                <button id ="camping-button" onclick="changeCampingCard('card-kayaking','card-camping')">Camping</button>
+            </div>
+            <div class="Card-contanier">
+        <div id="card-camping">
+            <div class="main-background">
+                <div class="background"></div>
+        <img src="Resim/pngwing2.com.png" id="cadir">
+        <img src="Resim/pngwing.com.png" id="cimen">
+            </div>
+            <div class="activityName">Camping</div>
+            <div class="price_hours">
+            <div class="price"><span class="Icon1">$</span><span class="number">29</span></div>
+            <div class="hour"><span class="number">8</span><span class="Icon2">hrs</span></div>
+            
+        </div>
+        <div class="text">per person</div>
+        <div class="location">
+            <ion-icon name="location-outline"></ion-icon>
+            <div class="text">Tara,Serbia</div>
+        </div>
+        <button>Choose Date</button>
+        </div>
+        <div id="card-kayaking">
+            <div class="main-background">
+                <div class="background"></div>
+        <img src="Resim/kayak_PNG87.png" id="kayak">
+        <img src="Resim/pngwing6.com.png" id="selale">
+            </div>
+            <div class="activityName">Kayaking</div>
+            <div class="price_hours">
+            <div class="price"><span class="Icon1">$</span><span class="number">39</span></div>
+            <div class="hour"><span class="number">4</span><span class="Icon2">hrs</span></div>
+            
+        </div>
+        <div class="text">per person</div>
+        <div class="location">
+            <ion-icon name="location-outline"></ion-icon>
+            <div class="text">Drina,Serbia</div>
+        </div>
+        <button>Choose Date</button>
+        </div>
+    </div>
+    </div>
+    <script src="JavaScript/PricingJS.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
