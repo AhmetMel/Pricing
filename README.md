@@ -1,5 +1,6 @@
-Html,CSS ve JavaScript ile oluşturulan animasyonlu aktivite bilgiler kartları
+Dönme animasyonu olan ve içinde aktivite bilgilerini tutan HTML,CSS ve JavaScript ile yazılan pricing card. 
 
+<h1>Video</h1>
 
-https://user-images.githubusercontent.com/114381662/206973234-06c95169-e932-4b01-a158-261295193910.mp4
+https://user-images.githubusercontent.com/114381662/207115980-6084a0be-e68c-4ff5-925c-a285f28199d5.mp4
 
