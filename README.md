@@ -1,3 +1,5 @@
+<h1>Başlık</h1>
+
 Dönme animasyonu olan ve içinde aktivite bilgilerini tutan HTML,CSS ve JavaScript ile yazılan pricing card. 
 
 <h1>Video</h1>
